@@ -1,0 +1,3 @@
+- Documentation: `https://grammy.dev/hosting/cloudflare-workers-nodejs`
+- Visit `https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=https://<MY_BOT>.<MY_SUBDOMAIN>.workers.dev/` to set the webhook for production
+- Visit `https://api.telegram.org/bot<BOT_TOKEN>/deleteWebhook` to delete the webhook for local development

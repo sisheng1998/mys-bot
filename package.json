@@ -1,25 +1,22 @@
 {
-	"name": "mys-bot",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"deploy": "wrangler deploy",
-		"dev": "wrangler dev",
-		"start": "wrangler dev",
-		"test": "vitest",
-		"cf-typegen": "wrangler types",
-		"prettier": "npx prettier . --write"
-	},
-	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.12.21",
-		"@ianvs/prettier-plugin-sort-imports": "^4.7.1",
-		"@types/node": "^26.1.1",
-		"prettier": "^3.9.5",
-		"typescript": "^5.9.3",
-		"vitest": "~3.2.0",
-		"wrangler": "^4.112.0"
-	},
-	"dependencies": {
-		"grammy": "^1.45.1"
-	}
+  "name": "mys-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types",
+    "prettier": "npx prettier . --write"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
+    "@types/node": "^26.1.1",
+    "prettier": "^3.9.5",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.112.0"
+  },
+  "dependencies": {
+    "grammy": "^1.45.1"
+  }
 }
