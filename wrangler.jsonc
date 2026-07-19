@@ -35,7 +35,7 @@
       "is_bot": true,
       "first_name": "MYS Bot",
       "username": "mys_tlg_bot",
-      "can_join_groups": true,
+      "can_join_groups": false,
       "can_read_all_group_messages": false,
       "supports_inline_queries": false,
       "supports_guest_queries": false,
